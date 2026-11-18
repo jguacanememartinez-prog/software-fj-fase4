@@ -23,6 +23,7 @@ Requiere solo la biblioteca estándar de Python 3.8 o superior. El log se genera
 | `servicios.py` | Clase abstracta `Servicio` y `ReservaSala`, `AlquilerEquipo`, `AsesoriaEspecializada` |
 | `reserva.py` | Clase `Reserva` (confirmar, cancelar, procesar) |
 | `main.py` | `GestorFJ` y 14 simulaciones válidas e inválidas |
+| `pruebas.py` | 17 pruebas automáticas con unittest |
 
 ## Conceptos aplicados
 
@@ -44,12 +45,6 @@ Requiere solo la biblioteca estándar de Python 3.8 o superior. El log se genera
 | FJ-302 | `OperacionNoPermitidaError` |
 | FJ-401 | `CalculoInconsistenteError` |
 
-## Equipo y distribución del trabajo
+## Autor
 
-| Integrante | Rama | Responsabilidad |
-|---|---|---|
-| Integrante 1 | `feature/excepciones-logs` | `excepciones.py`, `registro.py` |
-| Integrante 2 | `feature/entidades-cliente` | `entidades.py` |
-| Integrante 3 | `feature/servicios` | `servicios.py` |
-| Integrante 4 | `feature/reserva` | `reserva.py` |
-| Integrante 5 | `feature/simulaciones` | `main.py`, README |
+Juan Sebastian Guacaneme Martinez - Grupo 213023_611, Programación 213023, UNAD.
